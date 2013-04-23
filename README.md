@@ -346,13 +346,13 @@ Q: When might you explicitly use the `return` statement.
 A: To return from a method prematurely or to return multiple values.
 
 Q: Why might you want to alias a method?  
-A: To create a synonym for the method that is more readable or appropriate for the context of some problems. To add functionality to a method.
+A: To create a synonym for the method that is more readable or appropriate for the context of some problems. To add functionality to a method by calling `super` within your more robust one.
 
 Q: How might you send a message to a private method of a receiver object from outside the scope of the receiver object?  
-A: `#send`
+A: `#send`; it bypasses privacy restrictions.
 
 Q: How might you prevent future modifications to an object?  
-A: `#freeze`
+A: `#freeze`; it makes an object immutable.
 
 Q: How is the invocation of a private method different than the invocation of a public method from within its defining class?  
 A: It must be referenced in a functional manner without an explicit receiver object and not on the class object itself or on the current object `self`.
