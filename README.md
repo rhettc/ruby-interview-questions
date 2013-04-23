@@ -361,7 +361,7 @@ Q: Can method names be capitalized?
 A: Yes, but the convention is that they are not.
 
 Q: What is the difference between private and protected methods?  
-A: A private method can only be called by any instance methods of the defining class or any subclasses and must be invoked in a functional style and not explicitly on `self` such as with `self.my_method`. A protected method may be explicitly invoked by any instance of the defining class, and is not restricted to implicit invocation on `self`.
+A: A private method can only be called by any instance methods of the defining class or any subclasses and must be invoked in a functional style and not explicitly on `self` (such as with `self.my_method`). A protected method may be explicitly invoked by any instance of the defining class, and is not restricted to implicit invocation on `self`.
 
 Q: What is a singleton method?  
 A: A method that is available only on a single object.
