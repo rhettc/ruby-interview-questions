@@ -195,7 +195,7 @@ A: `i`
 Q: What is the pattern matching operator?  
 A: `#=~`
 
-Q: How might you include an expression within a `Regexp` literal?  
+Q: How might you interpolate an expression within a `Regexp` literal?  
 A: Using `#{}` just like as in a double-quoted string literal.
 
 Q: What is the global variable for the last `Regexp` match?  
