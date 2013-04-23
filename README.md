@@ -162,7 +162,10 @@ Q: Name one synonym for `#key?`?
 A: `#has_key?`, `#include?`, `#member?`
 
 Q: How do you specify a default value for a hash?  
-A: Pass the default values as an argument to `#new` on initialization or change the default directly with the setter method `Hash#default`. You may also provide a default at time of query using `#fetch`.
+A: Pass the default values as an argument to `#new` on initialization or change the default directly with the setter method `Hash#default`.
+
+Q: How do you specify a default value during a hash lookup?  
+A: You may provide a default at time of lookup using `#fetch`.
 
 Q: Does `Hash` use `#==` or `#eql?` to compare hash keys?  
 A: `#eql?`
