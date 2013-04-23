@@ -277,7 +277,7 @@ Q: When might you use the `do`/`end` syntax versus using the curly bracket synta
 A: The `do`/`end` syntax for a block is commonly used for multiline statements. An alternate convention is to use curly bracket syntax for blocks that return a value while using `do`/`end` syntax for blocks that change the state of the system somehow and do not return a value.
 
 Q: What is an iterator?  
-A: An object that allows traversal of the elements of the container. In Ruby, an iterator is any method that uses the yield statement.
+A: An object that allows traversal of the elements of the *container*--an `Enumerable`. In Ruby, an iterator is any method that uses the yield statement.
 
 Q: How do you define block-local variables in a block's parameter list?  
 A: Variables that appear after a semicolon in a block's parameter list are guaranteed to be local to the block.
@@ -307,7 +307,7 @@ Q: What is the synonym of `#inject`?
 A: `#reduce`
 
 Q: Why might you use `#each` instead of `for/in`?  
-A: It's the "Ruby way" - it is an example of how Ruby defines methods that mimic natural language concepts. Iterator methods such as `#each` read more naturally. `#each` is a block so it defines a new variable scope. `for/in` depends on the existence of `#each` which implies that `#each` is a more fundamental part of the language.
+A: It's the "Ruby way" - it is an example of how Ruby defines methods that mimic natural language concepts. Iterator methods such as `#each` read more naturally. `#each` is a block so it defines a new variable scope. `for/in` depends on the existence of `#each` which implies that `#each` is a more fundamental part of the language. `#each` can be refactored more easily into common pre-defined iterator usecase methods like `#select` or `#any?`.
 
 Q: What happens if a block in Ruby 1.9+ is passed two arguments but only accepts one argument?  
 A: Nothing. Only the first argument will be passed to the block.
