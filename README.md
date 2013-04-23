@@ -328,7 +328,7 @@ Q: How would you test whether an object has a method?
 A: `#respond_to?` or `#method?`
 
 Q: What is `self`?  
-A: The current object.
+A: The current object whose scope you are in.
 
 Q: What does a bang `!` at the end of a method signify?  
 A: That it should be used cautiously. Methods with this naming convention typically perform a mutation on the receiver object.
