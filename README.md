@@ -337,7 +337,7 @@ Q: Is a method an object?
 A: No, however, a `MethodObject` is an object.
 
 Q: What is a predicate in the context of Ruby method naming conventions?  
-A: A method that answers a question posed by the method invocation or method name. Predicates typically return a boolean.
+A: A method that answers a question posed by the method invocation or method name. Predicate methods typically return a boolean and are named with a trailing `?`.
 
 Q: Are instance methods public or private?  
 A: They are public by default. You can change their visibility using `Module#private`, `Module#protected`, or back again using `Module#public`.
