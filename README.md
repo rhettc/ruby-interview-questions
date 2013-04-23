@@ -322,7 +322,7 @@ Methods
 -------------------------------------------------------------------------------
 
 Q: Can methods be overloaded?  
-A: No.
+A: No. They can be either overwritten or introduced into introduced into a `super` eigenclass inheritance chain via `Module`s.
 
 Q: How would you test whether an object has a method?  
 A: `#respond_to?` or `#method?`
