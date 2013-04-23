@@ -185,7 +185,7 @@ A: After you mutate a mutable hash key.
 ### Range
 
 Q: What are two uses of ranges?  
-A: comparison, iteration
+A: Iterating over a consecutive series of integers, checking if an integer is in an acceptable tolerance
 
 ### Regexp
 
