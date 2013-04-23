@@ -61,7 +61,7 @@ Q: Is Ruby a strongly typed or a weakly typed language?
 A: Strongly typed since an object's type is checked before an operation is performed on it.
 
 Q: What does it mean to coerce an object? Why would you do it?  
-A: To coerce an object means to object means to create a functionally similar copy of it with a different type. You might do this in order to try and force an unknown object type into the expected type or format required by the operation.
+A: To coerce an object means to create a functionally similar copy of it with a different type. You might do this in order to try and force an unknown object type into the expected type or format required by the operation.
 
 Q: What is the difference between a statement and an expression in Ruby?  
 A: All statements are expressions in Ruby since all statements return a value. A statement is simply a way to refer to a certain type of syntax.
