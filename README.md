@@ -333,9 +333,6 @@ A: The current object whose scope you are in.
 Q: What does a bang `!` at the end of a method signify?  
 A: That it should be used cautiously. Methods with this naming convention typically perform a mutation on the receiver object.
 
-Q: What is a mutator method?  
-A: A method which alters the internal state of the object receiver.
-
 Q: Is a method an object?  
 A: No, however, a `MethodObject` is an object.
 
