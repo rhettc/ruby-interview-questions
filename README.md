@@ -253,7 +253,7 @@ Q: Does a case statement have fall-through behavior?
 A: No.
 
 Q: What is the difference between `throw/catch` and `raise/rescue`?  
-A: `throw` and `catch` accept matching symbols as arguments and should be considered a control-flow structure where `raise` and `rescue` is used to raise and handle exceptions. `throw` and `catch` are not commonly used while exception handling with `raise` and `rescue` is used often - a `rescue` clause is a fundamental part of the Ruby language.
+A: `throw` and `catch` accept matching symbols as arguments and should be considered a control-flow structure handling expected scenarios where `raise` and `rescue` is used to raise and handle exceptions in unexpected ones. `throw` and `catch` are not commonly used while exception handling with `raise` and `rescue` is used often - a `rescue` clause is a fundamental part of the Ruby language.
 
 Q: Does a `rescue` block define it's own variable scope?  
 A: No.
