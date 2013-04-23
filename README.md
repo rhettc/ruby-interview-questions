@@ -179,9 +179,6 @@ A: `Hash#[]=`
 Q: Why can you safely use a `String` as a hash key, even though a string is a mutable object?  
 A: Because Ruby makes a private copy of a string used as a hash key.
 
-Q: Why might you want to use `Hash#fetch` over `Hash#[]` when querying values in a hash?  
-A: It provides options for handling the case where a key does not exist in the hash.
-
 Q: When would you need to use `Hash#rehash`?  
 A: After you mutate a mutable hash key.
 
